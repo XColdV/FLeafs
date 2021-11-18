@@ -118,6 +118,5 @@ if audioBtnFound:
 
     except Exception as e:
         print(e)
-        sys.exit("[INFO] Possibly blocked by google. Change IP,Use Proxy method for requests")
 else:
     sys.exit("[INFO] Audio Play Button not found! In Very rare cases!")
